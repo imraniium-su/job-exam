@@ -12,6 +12,7 @@ const Userapi = () => {
         <div>
             <h1>Users Information</h1>
             <div className='name1'>
+
                 {
                     users.map(user => <Userapidata user={user} key={user.id}></Userapidata>)
                 }

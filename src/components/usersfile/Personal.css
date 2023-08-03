@@ -1,0 +1,25 @@
+.name1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+}
+
+.div1 {
+    margin: 20px;
+    background-color: rgb(221, 207, 191);
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.div2 {
+    margin: 20px;
+    background-color: azure;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+h1 {
+    text-align: center;
+}

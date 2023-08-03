@@ -6,7 +6,8 @@ const Userapi = () => {
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(res => res.json())
-            .then(data => SetUsers(data));
+            .then(data => SetUsers(data))
+            .catch(error => console.error(error));
     }, [])
     return (
         <div>
